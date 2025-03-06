@@ -19,6 +19,8 @@
   
 ## VISUALIZATIONS AND ANALYSIS
 * **Target Variable Analysis**
+  ![image](https://github.com/user-attachments/assets/f7dfd6b6-c2ae-4c4e-ad8f-2864d35b17b1)
+
 * **Univariate Analsis**
 * **Bivariate Analysis**
 * **Multivariate Analysis**
