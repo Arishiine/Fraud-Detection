@@ -29,11 +29,13 @@
   ![image](https://github.com/user-attachments/assets/13624f97-9599-4149-a9f8-fe927a3631af)
   * The risk score follows a uniform distribution, spread between 0.0001 and the median risk score is 0.50 indicating an even spread of risklevels.
   * Higher risk scores might be correlated with fraudulent transactions.
+    
 * **Bivariate Analysis**
   
   ![image](https://github.com/user-attachments/assets/3663daa3-48a5-442d-a0f9-fc06de635a68)
   * Fraudulent transactions have higher average risk scores(0.66) compared to legitimate ones(0.42).
-  * The boxplot confirms that frauds tend to have higher risk scores, making it a strong predictor of fraud. 
+  * The boxplot confirms that frauds tend to have higher risk scores, making it a strong predictor of fraud.
+    
 * **Multivariate Analysis**
   
   ![image](https://github.com/user-attachments/assets/83661528-9963-4d59-a743-034c878cac7b)
