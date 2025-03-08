@@ -21,17 +21,21 @@
   
 ## VISUALIZATIONS AND ANALYSIS
 * **Target Variable Analysis**
-![image](https://github.com/user-attachments/assets/15cff7f1-008e-4977-80fc-dac9130ae119)
-  * 67.87% of transactions are Legitimate while 32.13% are fraudulent-indicating a moderately imbalanced dataset, meaning fraud detection models need to be optimized to handle class imbalance effectively.
-* **Univariate Analsis**
+  
+![image](https://github.com/user-attachments/assets/15cff7f1-008e-4977-80fc-dac9130ae119) 
+* 67.87% of transactions are Legitimate while 32.13% are fraudulent-indicating a moderately imbalanced dataset, meaning fraud detection models need to be optimized to handle class imbalance effectively.
+* **Univariate Analysis**
+  
   ![image](https://github.com/user-attachments/assets/13624f97-9599-4149-a9f8-fe927a3631af)
   * The risk score follows a uniform distribution, spread between 0.0001 and the median risk score is 0.50 indicating an even spread of risklevels.
   * Higher risk scores might be correlated with fraudulent transactions.
 * **Bivariate Analysis**
+  
   ![image](https://github.com/user-attachments/assets/3663daa3-48a5-442d-a0f9-fc06de635a68)
   * Fraudulent transactions have higher average risk scores(0.66) compared to legitimate ones(0.42).
   * The boxplot confirms that frauds tend to have higher risk scores, making it a strong predictor of fraud. 
 * **Multivariate Analysis**
+  
   ![image](https://github.com/user-attachments/assets/83661528-9963-4d59-a743-034c878cac7b)
   * Risk Score and Fraud Label - 0.49 correlation-confirming that higher risk scores are strongly asscociated with fraudulent transcations.**Risk Score is likely to be a key predictor in fraud detection models.**
   * Failed Transactions and Fraud Label - 0.41 correlation thus a higher number of failed transcations correlates wth fraudulet behaviour.Fraudsters may attempt multiple failed transactions before succeding.
