@@ -1,3 +1,4 @@
-pandas
-LightGBM
-PyTorch
+flask
+scikit-learn
+joblib
+numpy
