@@ -4,6 +4,8 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
 
 #Save model
+best_model = RandomForestClassifier(random_state=42)
+best_model.fit(X_train, y_train)
 model=best_model
 joblib.dump(model,'model.pkl')
 ['model.pkl']
