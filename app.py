@@ -1,5 +1,4 @@
 #deployment
-import joblib
 import pickle 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
@@ -8,7 +7,7 @@ import streamlit as st
 #Save model
 model_rfc = RandomForestClassifier(random_state=42)
 model=model_rfc
-joblib.dump(model,'model.pkl')
+
 # Load model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
