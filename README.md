@@ -1,5 +1,8 @@
 # FRAUD DETECTION PROJECT
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/Arishiine/Fraud-Detection/blob/main/Fraud%20Detection%20Project.ipynb)
+
 ## PROJECT OVERVIEW
 * Fraudulent activities pose significant financial and reputational risks to businesses, necessiating the development of robust fraud detection systems.
 * The project **aims to build a data-driven fraud detection model** that can identify suspicious transactions with high accuracy as machine learning and statistical techniques.
